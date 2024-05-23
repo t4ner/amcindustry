@@ -1,0 +1,221 @@
+.header2 {
+    color: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .nav2 {
+    height: 3.5rem;
+  }
+  .nav__data2 {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav__logo2 {
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    column-gap: 0.25rem;
+    font-weight: 600;
+    padding: 4px;
+  }
+  .nav__logo2 i {
+    font-weight: 600;
+    font-size: 1.25rem;
+  }
+  .nav__toggle2 {
+    position: relative;
+    width: 32px;
+    height: 32px;
+  }
+  .nav__burger2,
+  .nav__close2 {
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    inset: 0;
+    margin: auto;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: opacity 0.1s, transform 0.4s;
+  }
+  .nav__close2 {
+    opacity: 0;
+  }
+  
+  @media screen and (max-width: 1118px) {
+    .nav__menu2 {
+      position: absolute;
+      left: 0;
+      top: 2.5rem;
+      width: 100%;
+      height: calc(100vh - 3.5rem);
+      overflow: auto;
+      pointer-events: none;
+      opacity: 0;
+      color: black;
+      transition: top 0.4s, opacity 0.3s;
+    }
+    .nav__menu2::-webkit-scrollbar {
+      width: 0;
+    }
+    .nav__list2 {
+      margin-top: 16px;
+      background-color: white;
+      color: black;
+      padding-top: 1rem;
+    }
+  }
+  .nav__link2 {
+    width: 100%;
+    color: black;
+    background-color: transparent;
+    font-weight: 600;
+    padding: 1.25rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+  }
+  
+  .nav__link2:hover {
+    background-color: rgb(227, 227, 235);
+  }
+  .show-menu2 {
+    opacity: 1;
+    top: 3.5rem;
+    pointer-events: initial;
+  }
+  .show-icon2 .nav__burger2 {
+    opacity: 0;
+    transform: rotate(90deg);
+  }
+  .show-icon2 .nav__close2 {
+    opacity: 1;
+    transform: rotate(90deg);
+  }
+  .dropdown__item2 {
+    cursor: pointer;
+  }
+  .dropdown__arrow2 {
+    font-size: 1.25em;
+    font-weight: 800;
+    transition: 0.4s;
+  }
+  
+  .dropdown__link2,
+  .dropdown__sublink2 {
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    color: black;
+    column-gap: 0.5rem;
+    transition: background-color 0.5s;
+  }
+  
+  .dropdown__link2 i,
+  .dropdown__sublink2 i {
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+  
+  .dropdown__link2:hover,
+  .dropdown__sublink2:hover {
+    background-color: rgb(227, 227, 235);
+  }
+  .dropdown__menu2,
+  .dropdown__submenu2 {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+  }
+  
+  .dropdown__item2:hover .dropdown__menu2,
+  .dropdown__subitem2:hover .dropdown__submenu2 {
+    max-height: 1000px;
+    transition: max-height 0.4s ease-in;
+  }
+  .dropdown__item2:hover .dropdown__arrow2 {
+    transform: rotate(180deg);
+  }
+  @media screen and (max-width: 1100px) {
+    .nav__link2 {
+      color: black;
+    }
+    .container2 {
+      margin-inline: 1rem;
+    }
+    .nav__link2 {
+      padding-inline: 1rem;
+    }
+  }
+  @media screen and (min-width: 1118px) {
+    .container2 {
+      margin-inline: auto;
+    }
+  
+    .nav2 {
+      height: calc(3.5rem + 2rem);
+      display: flex;
+      justify-content: space-between;
+    }
+    .nav__toggle2 {
+      display: none;
+    }
+    .nav__list2 {
+      height: 100%;
+      display: flex;
+      column-gap: 3rem;
+    }
+    .nav__link2 {
+      height: 100%;
+      padding: 0;
+      justify-content: initial;
+      column-gap: 0.25rem;
+    }
+    .nav__link2:hover {
+      background-color: transparent;
+    }
+    .dropdown__item2,
+    .dropdown__subitem2 {
+      position: relative;
+    }
+    .dropdown__menu2,
+    .dropdown__submenu2 {
+      max-height: initial;
+      overflow: initial;
+      position: absolute;
+      left: 0;
+      top: 6rem;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s, top 0.3s;
+    }
+    .dropdown__link2,
+    .dropdown__sublink2 {
+      padding-inline: 1rem 3.5rem;
+    }
+    .dropdown__subitem2 .dropdown__link2 {
+      padding-inline: 1rem;
+    }
+    .dropdown__submenu2 {
+      position: absolute;
+      left: 100%;
+      top: 0.5rem;
+    }
+    .dropdown__item2:hover .dropdown__menu2 {
+      opacity: 1;
+      top: 5.5rem;
+      pointer-events: initial;
+      transition: top 0.3s;
+    }
+    .dropdown__subitem2:hover .dropdown__submenu2 {
+      opacity: 1;
+      top: 0;
+      pointer-events: initial;
+      transition: top 0.3s;
+    }
+  }
