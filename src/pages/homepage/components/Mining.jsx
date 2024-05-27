@@ -30,7 +30,7 @@ function Mining() {
             <li>Air Separation Plant</li>
             <li>Aluminium Profile and Composite Panel Production Facilities</li>
             <li>PVC and Roller Shutter Production Facilitie</li>
-            <li>Belles top loading system and blast furnace spare parts</li>
+           
           </ul>
         </div>
       </div>

@@ -1,14 +1,14 @@
 import React from "react";
-import turkmenbasi from "/equipment/Resim4.png";
+import steel from "/steel/steel.jpeg";
 import AOS from "aos";
-import "aos/dist/aos.css"
+import "aos/dist/aos.css";
 import { useEffect } from "react";
 function Steel() {
   useEffect(() => {
-    AOS.init({duration:2000})
-   }, [])
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
-    <div id="section4" className="mt-10  top"  data-aos="fade-right">
+    <div id="section4" className="mt-10  top" data-aos="fade-right">
       <div className="px-4 md:px-20">
         <h2 className="text-2xl md:text-5xl">Steel</h2>
       </div>
@@ -16,7 +16,7 @@ function Steel() {
       <div className="bg-gray-100  flex-col lg:flex lg:flex-row items-center lg:h-[500px]">
         <div className="basis-2/3 h-full">
           <img
-            src={turkmenbasi}
+            src={steel}
             alt="Who We Are"
             className="h-[250px] lg:h-[500px] w-full object-cover"
           />
@@ -31,6 +31,8 @@ function Steel() {
             <li>Rolled</li>
             <li>Integrated production line</li>
             <li>Electrode Supply</li>
+            <li>Belles top loading system and blast furnace spare parts</li>
+            <li>Hearth Monitoring and 3d temperature camera systems for the blast Furnace</li>
           </ul>
         </div>
       </div>

@@ -11,7 +11,7 @@ function Energy() {
   return (
     <div id="section3" className="mt-10" data-aos="fade-left">
       <div className="px-4 md:px-20">
-        <h2 className="text-2xl md:text-5xl">Energy</h2>
+        <h2 className="text-2xl md:text-5xl">Green Energy</h2>
       </div>
 
       <div className="bg-gray-100  flex-col lg:flex lg:flex-row items-center">
@@ -23,18 +23,23 @@ function Energy() {
           />
         </div>
         <div className="basis-1/2 p-3 md:p-16 relative lg:order-1">
-          <p className="text-lg md:text-xl ">WHR PLANTS (WASTE HEAT RECOVERY PLANTS) </p>
-          <p className="md:text-lg ">
-            Our company specializes in the design and sizing of heat boilers
-            (heat exchangers) for waste heat recovery systems. We provide all
-            the necessary features and detailed engineering to achieve full
-            integration of both mechanical and electrical scopes
-          </p>
-          <ul className="md:text-lg mt-3 ">
-            <li>Equipment Supply</li>
-            <li>Engineering Services</li>
-            <li>Commissioning and Startup Operations</li>
-            <li>Finance</li>
+          <ul className="text-lg md:text-xl ">
+            <li>
+              Outgoing gases filtration units Design, Manufacturing and
+              Installation
+            </li>
+            <li>20+ months of Guarantee sine startup</li>
+            <li>
+              Modernization of old units using as much of the existing equipment
+              as possible, thus decreasing the project costs
+            </li>
+            <li>
+              Filtration units for all Industries: High temperature and Abrasion
+              resistance for Metallurgical
+            </li>
+            <li>High Moisture resistance for Bulk loading and handling</li>
+            <li>Cement and Construction material line</li>
+            <li>Dust suppression and more</li>
           </ul>
         </div>
       </div>

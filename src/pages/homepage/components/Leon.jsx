@@ -8,12 +8,12 @@ import { useEffect } from "react";
 import { Link } from "react-scroll";
 import cement from "/homepageimg/sonmezcimento.jpg";
 import energy from "/energy/energy.jpg";
-import steel from "/equipment/Resim4.png";
+import steel from "/steel/steel.jpeg";
 import mining from "/mining/metalurji2.webp";
 import port from "/homepageimg/thirdheroimage.jpeg";
 import trading from "/services/services1.jpg";
-import gas from "/gas/gas.jpeg"
-import valve from "/valve/valve.jpeg"
+import gas from "/gas/gas.jpeg";
+import valve from "/valve/valve.jpeg";
 
 function Leon() {
   useEffect(() => {
@@ -27,7 +27,10 @@ function Leon() {
       >
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${leonsphoto})`, filter: "blur(4px)" }}
+          style={{
+            backgroundImage: `url(${leonsphoto})`,
+            filter: "blur(4px) brightness(80%)",
+          }}
         ></div>
         <div
           className="flex flex-col justify-center items-center mb-20"
@@ -38,11 +41,11 @@ function Leon() {
               <span>
                 <Link
                   to="section3"
-                  className="cursor-pointer hover:mb-4 duration-300"
+                  className="cursor-pointer hover:mb-4 duration-300 text-center"
                   smooth={true}
                   duration={500}
                 >
-                  ENERGY
+                  GREEN <br /> ENERGY
                 </Link>
               </span>
             </div>
@@ -164,7 +167,7 @@ function Leon() {
                     id="demo2"
                     className="font-semibold text-lg"
                   >
-                    ENERGY
+                   GREEN ENERGY
                   </Link>
                 </div>
               </Link>
@@ -298,7 +301,7 @@ function Leon() {
                   style={{ backgroundImage: `url(${valve})` }}
                 >
                   <Link id="demo2" className="font-semibold text-lg">
-                   VALVE
+                    VALVE
                   </Link>
                 </div>
               </Link>
