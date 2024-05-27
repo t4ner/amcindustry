@@ -54,7 +54,7 @@ function WhoWeAre() {
       {/* <FourthSection /> */}
       {/* <FiftySection /> */}
       <p className="container md:text-lg px-3 md:px-0">
-        LEON FOREIGN TRADE INDUSTRY AND MINING INC. is a company that has been
+        AMC FOREIGN TRADE INDUSTRY AND MINING INC. is a company that has been
         providing services in industrial facilities for many years, primarily in
         the Cement, Iron & Steel, Energy, and Mining sectors. It places great
         importance on customer satisfaction, striving for excellence, continuous

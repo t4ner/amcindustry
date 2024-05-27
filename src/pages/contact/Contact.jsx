@@ -129,7 +129,7 @@ function Contact() {
           <div className=" flex-col lg:flex-row lg:flex justify-around container mt-10 md:mt-20">
             <div className="basis-1/3 bg-[#016ea5] text-white p-4">
               <h1 className="font-semibold">
-                LEON FOREIGN TRADE INDUSTRY AND MINING INC.
+                AMC FOREIGN TRADE INDUSTRY AND MINING INC.
               </h1>
               <p className="mt-7">
                 <span>HEAD OFFICE - </span>

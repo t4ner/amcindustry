@@ -11,7 +11,7 @@ function Purpose() {
           <div className="text-lg mt-2 tracking-wide space-y-2">
             <p>
               {" "}
-              <span className="font-semibold">LEON</span> is a joint venture
+              <span className="font-semibold">AMC</span> is a joint venture
               company who is dedicated to the Cement Building Material and
               Environment Protection business, including the Cement Industry,
               Lime, and AAC Blocks, Waste Incineration Treatment,
@@ -22,7 +22,7 @@ function Purpose() {
               world. <br></br>{" "}
             </p>
             <p>
-              <span className="font-semibold">LEON </span>
+              <span className="font-semibold">AMC </span>
               has already supplied the spare parts for many customers in Middle
               East, Turkey, Africa, and South East of Asian. Our partners
               including the best suppliers in the above areas, our consulting

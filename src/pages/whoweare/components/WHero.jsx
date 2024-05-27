@@ -23,7 +23,7 @@ function Hero() {
     setTextTransition(false);
     setTimeout(() => {
       if (currentBgIndex === 0) {
-        setText("We are Leon Industry");
+        setText("We are AMC Industry");
       } else if (currentBgIndex === 1) {
         setText(
           "We support nearly 80 clients through our 32 employees and offices in 5 countries"

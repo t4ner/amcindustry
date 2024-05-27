@@ -27,7 +27,7 @@ function WeAreLeon() {
               />
             </div>
             <p className="text-2xl md:text-4xl text-center p-10">
-              We are Leon Industry
+              We are AMC Industry
             </p>
           </div>
         </div>

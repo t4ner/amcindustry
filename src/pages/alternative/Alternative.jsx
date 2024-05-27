@@ -17,7 +17,7 @@ function Alternative() {
       <div className="mt-10 md:mt-20 px-4 md:px-0 container" style={{ overflow: 'hidden', pointerEvents: 'none' }}  >
         <div  data-aos="fade-left">    <h3 className="md:text-lg font-semibold mb-2">SHREDDED TYRES</h3>
         <h3 className="md:text-lg ">
-          LEON TRADING can offer RDF, shredded tyres from ITALY thru our
+          AMC TRADING can offer RDF, shredded tyres from ITALY thru our
           partners: Gruppo Agovino and SMOCO SRL. SMOCO SRL is an Italian
           EnvIronmental Consulting Company, created to provide the know-how we
           have gained regarding smart & proper management of waste destined to
