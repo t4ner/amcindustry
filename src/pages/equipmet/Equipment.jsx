@@ -4,6 +4,7 @@ import equipment2 from "/equipment/equipment2.jpg";
 import equipment3 from "/equipment/liman.jpg";
 import equipment6 from "/equipment/equipment6.jpeg";
 import equipment7 from "/equipment/equipment7.jpeg";
+import equipment8 from "/equipment/equipment8.jpeg";
 
 import equipment4 from "/equipment/Resim4.png";
 import equipment5 from "/equipment/equipment5.jpg";
@@ -19,32 +20,7 @@ function Equipment() {
   return (
     <div style={{ overflow: "hidden", pointerEvents: "none" }}>
       <EHero />
-      <div
-        className="mt-10 md:mt-20"
-        style={{ overflowY: "hidden", pointerEvents: "none" }}
-      >
-        <div
-          className="bg-gray-100  flex-col lg:flex lg:flex-row items-center"
-          data-aos="fade-left"
-        >
-          <div className="basis-2/3 h-full">
-            <img
-              src={equipment7}
-              alt="Who We Are"
-              className="h-[250px] md:h-[500px] w-full object-cover"
-            />
-          </div>
-          <div className="basis-1/2 md:text-lg md:px-10">
-            <div className="p-4">
-             
-              <p className="md:text-lg">
-              Komatsu, Liebherr, Sennebogen, XCMG, Shantui ve Sanyi
-              </p>
-             
-            </div>
-          </div>
-        </div>
-      </div>
+
       <div className="mt-10 md:mt-20">
         <div
           className="bg-gray-100  flex-col lg:flex lg:flex-row items-center"
@@ -59,9 +35,15 @@ function Equipment() {
           </div>
           <div className="basis-1/2 md:text-lg  md:px-10 relative lg:order-1">
             <div className="p-4">
-              <p className="md:text-lg mt-2 ">
-                Gas Processing equipments, Compressors, Pumps and more
-              </p>
+              <ul className="md:text-lg mt-2">
+                <li>Gas Processing equipments</li>
+                <li>Compressors</li>
+                <li>Pumps</li>
+                <li>Expanders</li>
+                <li>Column Equipment</li>
+                <li>Air Coolers</li>
+                <li>Small and big scale Separation units</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -175,6 +157,35 @@ function Equipment() {
                 <li>DRI</li>
                 <li>Rolled</li>
                 <li>İntegrated production line</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className="mt-10 md:mt-20"
+        style={{ overflowY: "hidden", pointerEvents: "none" }}
+      >
+        <div
+          className="bg-gray-100  flex-col lg:flex lg:flex-row items-center"
+          data-aos="fade-left"
+        >
+          <div className="basis-2/3 h-full">
+            <img
+              src={equipment8}
+              alt="Who We Are"
+              className="h-[250px] md:h-[500px] w-full object-cover"
+            />
+          </div>
+          <div className="basis-1/2 md:text-lg md:px-10">
+            <div className="p-4">
+              <ul className="md:text-lg">
+                <li>Komatsu</li>
+                <li>Liebherr</li>
+                <li>Sennebogen</li>
+                <li>XCMG</li>
+                <li>Shantui ve Sanyi</li>
               </ul>
             </div>
           </div>

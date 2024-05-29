@@ -57,7 +57,7 @@ function Hero() {
       <Navbar />
       <div className="h-full w-full flex flex-col items-center justify-center  pl-1">
         <h1
-          className="text-white text-[36px] md:text-[66px] leading-[50px] md:leading-[73px] mr-auto w-full md:w-3/4 font-normal"
+          className="text-white text-[36px] md:text-[66px] leading-[50px] md:leading-[73px] mr-auto w-full md:w-3/4 font-semibold shadowText"
           style={textStyles}
         >
           {text}

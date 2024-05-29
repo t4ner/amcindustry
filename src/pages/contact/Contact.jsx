@@ -131,24 +131,31 @@ function Contact() {
               <h1 className="font-semibold">
                 AMC FOREIGN TRADE INDUSTRY AND MINING INC.
               </h1>
-              <p className="mt-7">
+              <p className="mt-3">
                 <span>HEAD OFFICE - </span>
                 MOSCOW - Address: 115114, Moscow, st. Letnikovskaya, 10,
                 building 4, floor 5, room I, rooms No. 34,40
               </p>
-              <div className="mt-7">
+              <div className="mt-3">
                 {" "}
-                <p>Tel: +7(915)206-05-63</p>
-                <p>Tel: +7(926)072-15-50</p>
+                <p>Tel: +7 (926) 793-82-23</p>
+                <p>Tel: +7 (926) 072-15-50</p>
               </div>
-              <p className="mt-7 border-b-2 border-transparent hover:border-white duration-500">
-                mozturk@leonindustry.com
+              <p className="mt-3 border-b-2 border-transparent hover:border-white duration-500">
+                aranga@amc-crm.com
               </p>
-              <p className="mt-7">
+              <p className="mt-1 border-b-2 border-transparent hover:border-white duration-500">
+                sales@amc-crm.com
+              </p>
+
+              <p className="mt-5">
                 <span>BRANCH OFFICE - </span>Esentepe Mh. Büyükdere Cd. Astoria
                 Blok No:127 A Istanbul/Turkey
               </p>
-              <p className="mt-7">Tel: 0212 215 25 35</p>
+              <p className="mt-3 border-b-2 border-transparent hover:border-white duration-500">
+                mozturk@leonindustry.com
+              </p>
+              <p className="mt-3">Tel: +90 212 215 25 35</p>
             </div>
             <div className="basis-2/3">
               <iframe

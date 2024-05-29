@@ -3,6 +3,7 @@ import firstheroimage from "/homepageimg/firstheroimage.jpg";
 import secondheroimage from "/equipment/liman.jpg";
 import thirdheroimage from "/homepageimg/turkmenbasi.jpg";
 import Navbar from "../navbar/Navbar";
+import "../../index.css"
 
 function Hero() {
   const [currentBgIndex, setCurrentBgIndex] = useState(0);
@@ -44,6 +45,8 @@ function Hero() {
     transition: "background-image 2s ease-in-out",
   };
 
+  
+
   const textStyles = {
     transition: "opacity 0.5s linear",
     opacity: textTransition ? 1 : 0,
@@ -57,7 +60,7 @@ function Hero() {
       <Navbar />
       <div className="h-full w-full flex flex-col items-center justify-center  pl-1">
         <h1
-          className="text-white text-[36px] md:text-[66px] leading-[50px] md:leading-[73px] mr-auto w-full md:w-3/4  "
+          className="text-white font-semibold text-[36px] md:text-[66px] leading-[50px] md:leading-[73px] mr-auto w-full md:w-3/4 shadowText "
           style={textStyles}
         >
           {text}

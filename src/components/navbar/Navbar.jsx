@@ -23,7 +23,7 @@ function Navbar() {
   return (
     <>
       <header className={isContactPage ? "contact-navbar" : ""}>
-        <nav className="nav ">
+        <nav className="nav">
           <div className="nav__data">
             <Link to="/" className="nav__logo ">
               <img src={logo} alt="" className="h-44 mt-[88px]" />
@@ -42,13 +42,13 @@ function Navbar() {
             id="nav-menu"
           >
             <ul className="nav__list  text-lg ">
-              <li>
+              <li className={isContactPage ? "contact-" : "shadowText2"}>
                 <Link to="/" className="nav__link">
                   HOME
                 </Link>
               </li>
-              <li className="dropdown__item">
-                <div className="nav__link">
+              <li className="dropdown__item ">
+                <div   className={isContactPage ? "nav__link" : "nav__link shadowText2"} >
                   <Link to="/services">SERVICES</Link>{" "}
                   <i className="ri-arrow-down-s-line dropdown__arrow"></i>
                 </div>
@@ -56,7 +56,7 @@ function Navbar() {
                   <li>
                     <Link
                       to="/equipment-supply-services"
-                      className="dropdown__link p-3"
+                      className="dropdown__link p-3 "
                     >
                       Equipment & Spare Part Supply
                     </Link>
@@ -139,7 +139,7 @@ function Navbar() {
                 </ul>
               </li>
               <li>
-                <Link to="/whoweare" href="#" className="nav__link">
+                <Link to="/whoweare" href="#" className={isContactPage ? "nav__link" : "nav__link shadowText2"}>
                   WHO WE ARE
                 </Link>
               </li>
@@ -150,7 +150,7 @@ function Navbar() {
               </Link>
             </li> */}
               <li>
-                <Link to="/contact" href="#" className="nav__link">
+                <Link to="/contact" href="#"  className={isContactPage ? "nav__link" : "nav__link shadowText2"} >
                   CONTACT
                 </Link>
               </li>
