@@ -21,49 +21,22 @@ function Equipment() {
     <div style={{ overflow: "hidden", pointerEvents: "none" }}>
       <EHero />
 
-      <div className="mt-10 md:mt-20">
-        <div
-          className="bg-gray-100  flex-col lg:flex lg:flex-row items-center"
-          data-aos="fade-right"
-        >
-          <div className="basis-2/3 h-full relative lg:order-2">
-            <img
-              src={equipment6}
-              alt="Who We Are"
-              className="h-[250px] md:h-[500px] w-full "
-            />
-          </div>
-          <div className="basis-1/2 md:text-lg  md:px-10 relative lg:order-1">
-            <div className="p-4">
-              <ul className="md:text-lg mt-2">
-                <li>Gas Processing equipments</li>
-                <li>Compressors</li>
-                <li>Pumps</li>
-                <li>Expanders</li>
-                <li>Column Equipment</li>
-                <li>Air Coolers</li>
-                <li>Small and big scale Separation units</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
       <div
         className="mt-10 md:mt-20"
         style={{ overflowY: "hidden", pointerEvents: "none" }}
       >
         <div
-          className="bg-gray-100  flex-col lg:flex lg:flex-row items-center"
+          className="bg-gray-100 flex-col lg:flex lg:flex-row items-center"
           data-aos="fade-left"
         >
-          <div className="basis-2/3 h-full">
+          <div className="order-1 md:order-2 basis-2/3 h-full">
             <img
               src={equipment5}
               alt="Who We Are"
               className="h-[250px] md:h-[500px] w-full object-cover"
             />
           </div>
-          <div className="basis-1/2 md:text-lg md:px-10">
+          <div className="order-2 md:order-1 basis-1/2 md:text-lg md:px-10">
             <div className="p-4">
               With our European and Far East partners we have realised E/P/C +F
               many successful projects in Cement, Iron and Steel, Energy,
@@ -82,6 +55,35 @@ function Equipment() {
                 <li>Project Management </li>
                 <li>EPC Contractor</li>
               </ul>{" "}
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+      <div className="mt-10 md:mt-20">
+        <div
+          className="bg-gray-100  flex-col lg:flex lg:flex-row items-center"
+          data-aos="fade-right"
+        >
+          <div className="basis-2/3 h-full relative lg:order-1">
+            <img
+              src={equipment6}
+              alt="Who We Are"
+              className="h-[250px] md:h-[500px] w-full "
+            />
+          </div>
+          <div className="basis-1/2 md:text-lg  md:px-10 relative lg:order-1">
+            <div className="p-4">
+              <ul className="md:text-lg mt-2">
+                <li>Gas Processing equipments</li>
+                <li>Compressors</li>
+                <li>Pumps</li>
+                <li>Expanders</li>
+                <li>Column Equipment</li>
+                <li>Air Coolers</li>
+                <li>Small and big scale Separation units</li>
+              </ul>
             </div>
           </div>
         </div>
