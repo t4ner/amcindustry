@@ -1,7 +1,5 @@
 import React, { useRef, useState } from "react";
-import emailjs from "emailjs-com";
 import Footer from "../../components/footer/Footer";
-import ContactNavbar from "./ContactNavbar";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -75,28 +73,6 @@ function Contact() {
   };
   const form = useRef(null);
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_46ikwls",
-        "template_yri41sa",
-        form.current,
-        "eH_Rf6GYH5NogdNfx"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          alert("Message sent successfully!"); // Uyarı mesajı gösterme
-          form.current.reset(); // Formu temizleme
-        },
-        (error) => {
-          console.log(error.text);
-          alert("Failed to send message. Please try again."); // Uyarı mesajı gösterme
-        }
-      );
-  };
 
   const mapUrl =
     "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12032.365840604098!2d29.0155549!3d41.0669934!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab64f5d340001%3A0xa9d5a3c5df59f675!2zTEVPTiBEScWeIFTEsENBUkVUIEVORMOcU1RSxLAgVkUgTUFERU5DxLBMxLBLIEEuxZ4u!5e0!3m2!1str!2str!4v1711139735280!5m2!1str!2str";
@@ -361,56 +337,7 @@ function Contact() {
             </div>
           </Fragment>
         </div>
-        <div
-          className="bg-gray-100 w-full  md:w-1/2  container mt-10 md:mt-20"
-          data-aos="fade-right"
-        >
-          <div className="basis-2/3 text-black py-8 lg:py-16 px-10 mx-auto">
-            <h2 className="mb-4 text-3xl md:text-5xl tracking-tight text-center">
-              Contact Us
-            </h2>
-            <p className="mb-8 lg:mb-16 font-light text-center sm:text-xl">
-              Got a technical issue? Want to send feedback about a beta feature?
-              Need details about our Business plan? Let us know.
-            </p>
-            <form onSubmit={sendEmail} ref={form}>
-              <label className="block  font-medium ">Full name</label>
-              <input
-                type="text"
-                name="user_name"
-                className="shadow-sm border mb-4  text-sm rounded-lg  block w-full p-2.5"
-              />
-              <label className="block  font-medium ">Phone</label>
-              <input
-                type="text"
-                name="phone"
-                className="shadow-sm border mb-4   text-sm rounded-lg  block w-full p-2.5"
-              />
-              <label className="block  font-medium ">Company</label>
-              <input
-                type="text"
-                name="company"
-                className="shadow-sm border mb-4  text-sm rounded-lg  block w-full p-2.5"
-              />
-              <label className="block font-medium ">Email</label>
-              <input
-                type="email"
-                name="user_email"
-                className="shadow-sm border  text-sm rounded-lg  block w-full p-2.5"
-              />
-              <label className="block mt-4  font-medium ">Message</label>
-              <textarea
-                name="message"
-                className="shadow-sm border mb-4  text-sm rounded-lg  block w-full p-2.5"
-              ></textarea>
-              <input
-                type="submit"
-                value="Send"
-                className="shadow-sm border mb-4 bg-[#016ea5] cursor-pointer  text-sm rounded-lg  block  px-5 py-2 text-white font-bold"
-              />
-            </form>
-          </div>
-        </div>
+       
         <Footer />
       </div>
     </>
