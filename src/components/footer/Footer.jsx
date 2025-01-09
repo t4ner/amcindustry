@@ -49,7 +49,7 @@ function Footer() {
         </span>
         <p className="block text-sm text-center text-gray-500 sm:text-center dark:text-gray-400">
           <a href="https://ttyazilim.com.tr/">
-            Designed By TTYazılım
+            Designed By TT Yazılım
           </a>
         </p>
       </div>
