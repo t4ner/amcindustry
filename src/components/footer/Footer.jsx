@@ -48,7 +48,9 @@ function Footer() {
           . All Rights Reserved.
         </span>
         <p className="block text-sm text-center text-gray-500 sm:text-center dark:text-gray-400">
-          Designed By TTYazılım
+          <a href="https://ttyazilim.com.tr/">
+            Designed By TTYazılım
+          </a>
         </p>
       </div>
     </footer>
